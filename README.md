@@ -6,7 +6,7 @@ A principal vantagem de uma Trie Compacta sobre uma Trie padrão é a otimizaç�
 
 O programa assume que todas as palavras inseridas estão em **minúsculo e não possuem acentos ou tils**, simplificando a implementação.
 
-## 🧠 Conceito e Estrutura
+## Conceito e Estrutura
 
 A lógica da árvore é baseada em dois tipos de nós, diferenciados por uma flag booleana `no_externo`.
 
@@ -20,7 +20,7 @@ A lógica da árvore é baseada em dois tipos de nós, diferenciados por uma fla
 
 Quando uma nova palavra é inserida e seu prefixo corresponde parcialmente a uma chave em um nó externo, este nó é convertido em um nó interno, e seus filhos são criados para acomodar tanto a palavra antiga quanto a nova.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 O programa oferece um menu interativo com as seguintes operações:
 
@@ -44,7 +44,7 @@ Você precisará de um compilador C++ (como o g++) para executar o projeto.
     ./trie_compacta
     ```
 
-## 💻 Exemplo de Uso
+## Exemplo de Uso
 
 ```console
 Menu:
